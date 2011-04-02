@@ -10,6 +10,9 @@
 		activeBuildConfigurationName = Debug;
 		activeExecutable = 4E9F7360134758DE00A550AB /* Undercurrents */;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* Undercurrents */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* Undercurrents */,
+		);
 		codeSenseManager = 4E9F7376134758E200A550AB /* Code sense */;
 		executables = (
 			4E9F7360134758DE00A550AB /* Undercurrents */,
