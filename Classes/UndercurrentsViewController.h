@@ -7,10 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "WikiController.h"
 
 @interface UndercurrentsViewController : UIViewController {
-
+	
+	WikiController *wiki_controller;
+	
 }
+
+@property (retain) WikiController *wiki_controller;
+
 
 @end
 
