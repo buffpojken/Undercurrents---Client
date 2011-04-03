@@ -1,0 +1,472 @@
+TUndercurrents
+v7
+r0
+t323451993.113251
+cCheck dependencies
+cCpResource build/Debug-iphoneos/Undercurrents.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphoneos/Undercurrents.app/Info.plist Undercurrents-Info.plist
+cCompileXIB /Users/buffpojken/Projects/Objective-C/Undercurrents/MainWindow.xib
+cCompileXIB /Users/buffpojken/Projects/Objective-C/Undercurrents/UndercurrentsViewController.xib
+cCpResource build/Debug-iphoneos/Undercurrents.app/README.textile README.textile
+cCopyPNGFile /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphoneos/Undercurrents.app/96-book.png 96-book.png
+cCopyPNGFile /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphoneos/Undercurrents.app/111-user.png 111-user.png
+cProcessPCH /var/folders/Ai/Ai47yOSqGwuFvzAUIEIr1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Undercurrents_Prefix-cuojtthciuxascbuzxiasmxxbjyq/Undercurrents_Prefix.pch.gch Undercurrents_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Undercurrents.build/Debug-iphoneos/Undercurrents.build/Objects-normal/armv7/main.o /Users/buffpojken/Projects/Objective-C/Undercurrents/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Undercurrents.build/Debug-iphoneos/Undercurrents.build/Objects-normal/armv7/UndercurrentsAppDelegate.o /Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/UndercurrentsAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Undercurrents.build/Debug-iphoneos/Undercurrents.build/Objects-normal/armv7/UndercurrentsViewController.o /Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/UndercurrentsViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Undercurrents.build/Debug-iphoneos/Undercurrents.build/Objects-normal/armv7/WikiController.o /Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/WikiController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Undercurrents.build/Debug-iphoneos/Undercurrents.build/Objects-normal/armv7/WikiEdit.o /Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/WikiEdit.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Undercurrents.build/Debug-iphoneos/Undercurrents.build/Objects-normal/armv7/ChatController.o /Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/ChatController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphoneos/Undercurrents.app/Undercurrents normal armv7
+cGenerateDSYMFile /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphoneos/Undercurrents.app.dSYM /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphoneos/Undercurrents.app/Undercurrents
+cProcessProductPackaging "/Users/buffpojken/Library/MobileDevice/Provisioning Profiles/023878AC-14A0-40D4-BAD2-9F0671B105AA.mobileprovision" /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphoneos/Undercurrents.app/embedded.mobileprovision
+cTouch /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphoneos/Undercurrents.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphoneos/Undercurrents.build/Undercurrents.xcent
+cCodeSign /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphoneos/Undercurrents.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+c000000004CB3DFCF00000000000001A7
+t1286856655
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Users/buffpojken/Library/MobileDevice/Provisioning Profiles/023878AC-14A0-40D4-BAD2-9F0671B105AA.mobileprovision
+c000000004D4BDD710000000000001DBC
+t1296817521
+s7612
+
+N/Users/buffpojken/Projects/Objective-C/Undercurrents/111-user.png
+c000000004CB844500000000000000BAF
+t1287144528
+s2991
+
+N/Users/buffpojken/Projects/Objective-C/Undercurrents/96-book.png
+c000000004CB844720000000000000BF9
+t1287144562
+s3065
+
+N/Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/ChatController.h
+c000000004D9739EA00000000000000EA
+t1301756394
+s234
+i<UIKit/UIKit.h>
+
+N/Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/ChatController.m
+c000000004D973A69000000000000060F
+t1301756521
+s1551
+i"ChatController.h"
+
+N/Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/UndercurrentsAppDelegate.h
+c000000004D97215E0000000000000207
+t1301750110
+s519
+i<UIKit/UIKit.h>
+
+N/Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/UndercurrentsAppDelegate.m
+c000000004D97242600000000000007D6
+t1301750822
+s2006
+i"UndercurrentsAppDelegate.h"
+i"UndercurrentsViewController.h"
+
+N/Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/UndercurrentsViewController.h
+c000000004D973A0100000000000001E8
+t1301756417
+s488
+i<UIKit/UIKit.h>
+i"WikiController.h"
+i"ChatController.h"
+
+N/Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/UndercurrentsViewController.m
+c000000004D973A24000000000000064C
+t1301756452
+s1612
+i"UndercurrentsViewController.h"
+
+N/Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/WikiController.h
+c000000004D9743450000000000000230
+t1301758789
+s560
+i<UIKit/UIKit.h>
+
+N/Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/WikiController.m
+c000000004D9744D30000000000000FDD
+t1301759187
+s4061
+i"WikiController.h"
+i"WikiEdit.h"
+
+N/Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/WikiEdit.h
+c000000004D973BE8000000000000012A
+t1301756904
+s298
+i<UIKit/UIKit.h>
+
+N/Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/WikiEdit.m
+c000000004D97449A0000000000000CEB
+t1301759130
+s3307
+i"WikiEdit.h"
+
+N/Users/buffpojken/Projects/Objective-C/Undercurrents/MainWindow.xib
+c000000004D97215E0000000000004D45
+t1301750110
+s19781
+
+N/Users/buffpojken/Projects/Objective-C/Undercurrents/README.textile
+c000000004D9723490000000000000012
+t1301750601
+s18
+
+N/Users/buffpojken/Projects/Objective-C/Undercurrents/UndercurrentsViewController.xib
+c000000004D97215E0000000000003EF9
+t1301750110
+s16121
+
+N/Users/buffpojken/Projects/Objective-C/Undercurrents/Undercurrents_Prefix.pch
+c000000004D97215E00000000000000C3
+t1301750110
+s195
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphoneos/Undercurrents.app
+t1301759193
+s476
+
+N/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphoneos/Undercurrents.app.dSYM
+t1301759192
+s102
+
+N/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphoneos/Undercurrents.app/111-user.png
+t1301759191
+s3109
+
+N/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphoneos/Undercurrents.app/96-book.png
+t1301759191
+s3255
+
+N/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphoneos/Undercurrents.app/Info.plist
+t1301759190
+s1012
+
+N/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphoneos/Undercurrents.app/MainWindow.nib
+t1301759191
+s1135
+
+N/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphoneos/Undercurrents.app/PkgInfo
+t1301759190
+s8
+
+N/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphoneos/Undercurrents.app/README.textile
+t1301759191
+s18
+
+N/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphoneos/Undercurrents.app/ResourceRules.plist
+t1301759190
+s485
+
+N/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphoneos/Undercurrents.app/Undercurrents
+t1301759192
+s33884
+
+N/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphoneos/Undercurrents.app/UndercurrentsViewController.nib
+t1301759191
+s764
+
+N/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphoneos/Undercurrents.app/embedded.mobileprovision
+t1301759192
+s7612
+
+N/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphoneos/Undercurrents.build/Objects-normal/armv7/ChatController.o
+t1301759192
+s39816
+
+N/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphoneos/Undercurrents.build/Objects-normal/armv7/Undercurrents.LinkFileList
+c000000004D9744D60000000000000397
+t1301759190
+s919
+
+N/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphoneos/Undercurrents.build/Objects-normal/armv7/UndercurrentsAppDelegate.o
+t1301759192
+s50828
+
+N/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphoneos/Undercurrents.build/Objects-normal/armv7/UndercurrentsViewController.o
+t1301759192
+s43916
+
+N/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphoneos/Undercurrents.build/Objects-normal/armv7/WikiController.o
+t1301759192
+s57072
+
+N/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphoneos/Undercurrents.build/Objects-normal/armv7/WikiEdit.o
+t1301759192
+s47612
+
+N/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphoneos/Undercurrents.build/Objects-normal/armv7/main.o
+t1301759192
+s6460
+
+N/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphoneos/Undercurrents.build/Undercurrents.xcent
+t1301759192
+s432
+
+N/Users/buffpojken/Projects/Objective-C/Undercurrents/main.m
+c000000004D97215E0000000000000173
+t1301750110
+s371
+i<UIKit/UIKit.h>
+
+N/var/folders/Ai/Ai47yOSqGwuFvzAUIEIr1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Undercurrents_Prefix-cuojtthciuxascbuzxiasmxxbjyq/Undercurrents_Prefix.pch.gch
+t1301759191
+s10446552
+
+NUndercurrents-Info.plist
+c000000004D97215E00000000000004D6
+t1301750110
+s1238
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies323451990#323451990#0(0"0(0#1#0"8614261984#0"0#
+
+CCodeSign /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphoneos/Undercurrents.app
+s323451992.970433
+e323451993.113214
+r1
+xCodeSign
+x/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphoneos/Undercurrents.app
+lSLF07#2@47"CodeSign build/Debug-iphoneos/Undercurrents.app323451992#323451993#0(0"0(0#0#91"/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphoneos/Undercurrents.app8613094880#740"    cd /Users/buffpojken/Projects/Objective-C/Undercurrents    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Daniel Sundström (457AVPF4UC)" --resource-rules=/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphoneos/Undercurrents.app/ResourceRules.plist --entitlements /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphoneos/Undercurrents.build/Undercurrents.xcent /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphoneos/Undercurrents.app0#
+
+CCompileC build/Undercurrents.build/Debug-iphoneos/Undercurrents.build/Objects-normal/armv7/ChatController.o /Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/ChatController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s323451992.777052
+e323451992.870780
+r1
+xCompileC
+xbuild/Undercurrents.build/Debug-iphoneos/Undercurrents.build/Objects-normal/armv7/ChatController.o
+x/Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/ChatController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/ChatController.m323451992#323451992#0(0"0(0#0#77"/Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/ChatController.m8614576160#2026"    cd /Users/buffpojken/Projects/Objective-C/Undercurrents    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphoneos/Undercurrents.build/Undercurrents-generated-files.hmap -I/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphoneos/Undercurrents.build/Undercurrents-own-target-headers.hmap -I/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphoneos/Undercurrents.build/Undercurrents-all-target-headers.hmap -iquote /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphoneos/Undercurrents.build/Undercurrents-project-headers.hmap -F/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphoneos -I/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphoneos/include -I/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphoneos/Undercurrents.build/DerivedSources/armv7 -I/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphoneos/Undercurrents.build/DerivedSources -include /var/folders/Ai/Ai47yOSqGwuFvzAUIEIr1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Undercurrents_Prefix-cuojtthciuxascbuzxiasmxxbjyq/Undercurrents_Prefix.pch -c /Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/ChatController.m -o /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphoneos/Undercurrents.build/Objects-normal/armv7/ChatController.o0#
+
+CCompileC build/Undercurrents.build/Debug-iphoneos/Undercurrents.build/Objects-normal/armv7/UndercurrentsAppDelegate.o /Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/UndercurrentsAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s323451992.566509
+e323451992.646086
+r1
+xCompileC
+xbuild/Undercurrents.build/Debug-iphoneos/Undercurrents.build/Objects-normal/armv7/UndercurrentsAppDelegate.o
+x/Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/UndercurrentsAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@95"Compile /Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/UndercurrentsAppDelegate.m323451992#323451992#0(0"0(0#0#87"/Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/UndercurrentsAppDelegate.m8613862016#2046"    cd /Users/buffpojken/Projects/Objective-C/Undercurrents    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphoneos/Undercurrents.build/Undercurrents-generated-files.hmap -I/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphoneos/Undercurrents.build/Undercurrents-own-target-headers.hmap -I/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphoneos/Undercurrents.build/Undercurrents-all-target-headers.hmap -iquote /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphoneos/Undercurrents.build/Undercurrents-project-headers.hmap -F/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphoneos -I/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphoneos/include -I/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphoneos/Undercurrents.build/DerivedSources/armv7 -I/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphoneos/Undercurrents.build/DerivedSources -include /var/folders/Ai/Ai47yOSqGwuFvzAUIEIr1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Undercurrents_Prefix-cuojtthciuxascbuzxiasmxxbjyq/Undercurrents_Prefix.pch -c /Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/UndercurrentsAppDelegate.m -o /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphoneos/Undercurrents.build/Objects-normal/armv7/UndercurrentsAppDelegate.o0#
+
+CCompileC build/Undercurrents.build/Debug-iphoneos/Undercurrents.build/Objects-normal/armv7/UndercurrentsViewController.o /Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/UndercurrentsViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s323451992.629202
+e323451992.708559
+r1
+xCompileC
+xbuild/Undercurrents.build/Debug-iphoneos/Undercurrents.build/Objects-normal/armv7/UndercurrentsViewController.o
+x/Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/UndercurrentsViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@98"Compile /Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/UndercurrentsViewController.m323451992#323451992#0(0"0(0#0#90"/Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/UndercurrentsViewController.m8612334400#2052"    cd /Users/buffpojken/Projects/Objective-C/Undercurrents    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphoneos/Undercurrents.build/Undercurrents-generated-files.hmap -I/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphoneos/Undercurrents.build/Undercurrents-own-target-headers.hmap -I/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphoneos/Undercurrents.build/Undercurrents-all-target-headers.hmap -iquote /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphoneos/Undercurrents.build/Undercurrents-project-headers.hmap -F/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphoneos -I/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphoneos/include -I/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphoneos/Undercurrents.build/DerivedSources/armv7 -I/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphoneos/Undercurrents.build/DerivedSources -include /var/folders/Ai/Ai47yOSqGwuFvzAUIEIr1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Undercurrents_Prefix-cuojtthciuxascbuzxiasmxxbjyq/Undercurrents_Prefix.pch -c /Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/UndercurrentsViewController.m -o /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphoneos/Undercurrents.build/Objects-normal/armv7/UndercurrentsViewController.o0#
+
+CCompileC build/Undercurrents.build/Debug-iphoneos/Undercurrents.build/Objects-normal/armv7/WikiController.o /Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/WikiController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s323451992.646180
+e323451992.776960
+r1
+xCompileC
+xbuild/Undercurrents.build/Debug-iphoneos/Undercurrents.build/Objects-normal/armv7/WikiController.o
+x/Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/WikiController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/WikiController.m323451992#323451992#0(0"0(0#0#77"/Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/WikiController.m8604117312#2026"    cd /Users/buffpojken/Projects/Objective-C/Undercurrents    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphoneos/Undercurrents.build/Undercurrents-generated-files.hmap -I/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphoneos/Undercurrents.build/Undercurrents-own-target-headers.hmap -I/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphoneos/Undercurrents.build/Undercurrents-all-target-headers.hmap -iquote /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphoneos/Undercurrents.build/Undercurrents-project-headers.hmap -F/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphoneos -I/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphoneos/include -I/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphoneos/Undercurrents.build/DerivedSources/armv7 -I/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphoneos/Undercurrents.build/DerivedSources -include /var/folders/Ai/Ai47yOSqGwuFvzAUIEIr1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Undercurrents_Prefix-cuojtthciuxascbuzxiasmxxbjyq/Undercurrents_Prefix.pch -c /Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/WikiController.m -o /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphoneos/Undercurrents.build/Objects-normal/armv7/WikiController.o0#
+
+CCompileC build/Undercurrents.build/Debug-iphoneos/Undercurrents.build/Objects-normal/armv7/WikiEdit.o /Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/WikiEdit.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s323451992.708655
+e323451992.880533
+r1
+xCompileC
+xbuild/Undercurrents.build/Debug-iphoneos/Undercurrents.build/Objects-normal/armv7/WikiEdit.o
+x/Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/WikiEdit.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/WikiEdit.m323451992#323451992#0(0"0(0#0#71"/Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/WikiEdit.m8613381600#2014"    cd /Users/buffpojken/Projects/Objective-C/Undercurrents    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphoneos/Undercurrents.build/Undercurrents-generated-files.hmap -I/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphoneos/Undercurrents.build/Undercurrents-own-target-headers.hmap -I/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphoneos/Undercurrents.build/Undercurrents-all-target-headers.hmap -iquote /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphoneos/Undercurrents.build/Undercurrents-project-headers.hmap -F/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphoneos -I/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphoneos/include -I/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphoneos/Undercurrents.build/DerivedSources/armv7 -I/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphoneos/Undercurrents.build/DerivedSources -include /var/folders/Ai/Ai47yOSqGwuFvzAUIEIr1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Undercurrents_Prefix-cuojtthciuxascbuzxiasmxxbjyq/Undercurrents_Prefix.pch -c /Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/WikiEdit.m -o /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphoneos/Undercurrents.build/Objects-normal/armv7/WikiEdit.o0#
+
+CCompileC build/Undercurrents.build/Debug-iphoneos/Undercurrents.build/Objects-normal/armv7/main.o /Users/buffpojken/Projects/Objective-C/Undercurrents/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s323451992.565502
+e323451992.629112
+r1
+xCompileC
+xbuild/Undercurrents.build/Debug-iphoneos/Undercurrents.build/Objects-normal/armv7/main.o
+x/Users/buffpojken/Projects/Objective-C/Undercurrents/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/buffpojken/Projects/Objective-C/Undercurrents/main.m323451992#323451992#0(0"0(0#0#59"/Users/buffpojken/Projects/Objective-C/Undercurrents/main.m8614249248#1998"    cd /Users/buffpojken/Projects/Objective-C/Undercurrents    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphoneos/Undercurrents.build/Undercurrents-generated-files.hmap -I/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphoneos/Undercurrents.build/Undercurrents-own-target-headers.hmap -I/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphoneos/Undercurrents.build/Undercurrents-all-target-headers.hmap -iquote /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphoneos/Undercurrents.build/Undercurrents-project-headers.hmap -F/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphoneos -I/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphoneos/include -I/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphoneos/Undercurrents.build/DerivedSources/armv7 -I/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphoneos/Undercurrents.build/DerivedSources -include /var/folders/Ai/Ai47yOSqGwuFvzAUIEIr1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Undercurrents_Prefix-cuojtthciuxascbuzxiasmxxbjyq/Undercurrents_Prefix.pch -c /Users/buffpojken/Projects/Objective-C/Undercurrents/main.m -o /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphoneos/Undercurrents.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Users/buffpojken/Projects/Objective-C/Undercurrents/MainWindow.xib
+s323451990.888643
+e323451991.271982
+r1
+xCompileXIB
+x/Users/buffpojken/Projects/Objective-C/Undercurrents/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib323451990#323451991#0(0"0(0#0#67"/Users/buffpojken/Projects/Objective-C/Undercurrents/MainWindow.xib32088490945478768#590"    cd /Users/buffpojken/Projects/Objective-C/Undercurrents    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphoneos/Undercurrents.app/MainWindow.nib /Users/buffpojken/Projects/Objective-C/Undercurrents/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/buffpojken/Projects/Objective-C/Undercurrents/UndercurrentsViewController.xib
+s323451990.889232
+e323451991.272109
+r1
+xCompileXIB
+x/Users/buffpojken/Projects/Objective-C/Undercurrents/UndercurrentsViewController.xib
+lSLF07#2@42"CompileXIB UndercurrentsViewController.xib323451990#323451991#0(0"0(0#0#84"/Users/buffpojken/Projects/Objective-C/Undercurrents/UndercurrentsViewController.xib8614991808#624"    cd /Users/buffpojken/Projects/Objective-C/Undercurrents    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphoneos/Undercurrents.app/UndercurrentsViewController.nib /Users/buffpojken/Projects/Objective-C/Undercurrents/UndercurrentsViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCopyPNGFile /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphoneos/Undercurrents.app/111-user.png 111-user.png
+s323451991.276645
+e323451991.325731
+r1
+xCopyPNGFile
+x/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphoneos/Undercurrents.app/111-user.png
+x111-user.png
+lSLF07#2@76"CopyPNGFile build/Debug-iphoneos/Undercurrents.app/111-user.png 111-user.png323451991#323451991#0(0"0(0#0#65"/Users/buffpojken/Projects/Objective-C/Undercurrents/111-user.png8613710336#612"    cd /Users/buffpojken/Projects/Objective-C/Undercurrents    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/buffpojken/Projects/Objective-C/Undercurrents/111-user.png /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphoneos/Undercurrents.app/111-user.png0#
+
+CCopyPNGFile /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphoneos/Undercurrents.app/96-book.png 96-book.png
+s323451991.272914
+e323451991.325870
+r1
+xCopyPNGFile
+x/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphoneos/Undercurrents.app/96-book.png
+x96-book.png
+lSLF07#2@74"CopyPNGFile build/Debug-iphoneos/Undercurrents.app/96-book.png 96-book.png323451991#323451991#0(0"0(0#0#64"/Users/buffpojken/Projects/Objective-C/Undercurrents/96-book.png8613798432#610"    cd /Users/buffpojken/Projects/Objective-C/Undercurrents    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/buffpojken/Projects/Objective-C/Undercurrents/96-book.png /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphoneos/Undercurrents.app/96-book.png0#
+
+CCpResource build/Debug-iphoneos/Undercurrents.app/README.textile README.textile
+s323451991.272261
+e323451991.276576
+r1
+xCpResource
+xbuild/Debug-iphoneos/Undercurrents.app/README.textile
+xREADME.textile
+lSLF07#2@19"Copy README.textile323451991#323451991#0(0"0(0#0#67"/Users/buffpojken/Projects/Objective-C/Undercurrents/README.textile8613957536#506"    cd /Users/buffpojken/Projects/Objective-C/Undercurrents    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/buffpojken/Projects/Objective-C/Undercurrents/README.textile /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphoneos/Undercurrents.app0#
+
+CCpResource build/Debug-iphoneos/Undercurrents.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+s323451990.874512
+e323451990.883363
+r1
+xCpResource
+xbuild/Debug-iphoneos/Undercurrents.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist323451990#323451990#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist8612628896#528"    cd /Users/buffpojken/Projects/Objective-C/Undercurrents    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphoneos/Undercurrents.app0#
+
+CGenerateDSYMFile /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphoneos/Undercurrents.app.dSYM /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphoneos/Undercurrents.app/Undercurrents
+s323451992.942280
+e323451992.963695
+r1
+xGenerateDSYMFile
+x/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphoneos/Undercurrents.app.dSYM
+x/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphoneos/Undercurrents.app/Undercurrents
+lSLF07#2@113"GenerateDSYMFile build/Debug-iphoneos/Undercurrents.app.dSYM build/Debug-iphoneos/Undercurrents.app/Undercurrents323451992#323451992#0(0"0(0#0#105"/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphoneos/Undercurrents.app/Undercurrents8612644448#422"    cd /Users/buffpojken/Projects/Objective-C/Undercurrents    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphoneos/Undercurrents.app/Undercurrents -o /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphoneos/Undercurrents.app.dSYM0#
+
+CLd /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphoneos/Undercurrents.app/Undercurrents normal armv7
+s323451992.880623
+e323451992.942183
+r1
+xLd
+x/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphoneos/Undercurrents.app/Undercurrents
+xnormal
+xarmv7
+lSLF07#2@110"Link /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphoneos/Undercurrents.app/Undercurrents323451992#323451992#0(0"0(0#0#0"8614795328#922"    cd /Users/buffpojken/Projects/Objective-C/Undercurrents    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphoneos -F/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphoneos -filelist /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphoneos/Undercurrents.build/Objects-normal/armv7/Undercurrents.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphoneos/Undercurrents.app/Undercurrents0#
+
+CProcessInfoPlistFile /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphoneos/Undercurrents.app/Info.plist Undercurrents-Info.plist
+s323451990.876988
+e323451990.888558
+r1
+xProcessInfoPlistFile
+x/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphoneos/Undercurrents.app/Info.plist
+xUndercurrents-Info.plist
+lSLF07#2@32"Process Undercurrents-Info.plist323451990#323451990#0(0"0(0#0#77"/Users/buffpojken/Projects/Objective-C/Undercurrents/Undercurrents-Info.plist8613854848#642"    cd /Users/buffpojken/Projects/Objective-C/Undercurrents    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Undercurrents-Info.plist -genpkginfo /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphoneos/Undercurrents.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphoneos/Undercurrents.app/ResourceRules.plist -o /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphoneos/Undercurrents.app/Info.plist0#
+
+CProcessPCH /var/folders/Ai/Ai47yOSqGwuFvzAUIEIr1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Undercurrents_Prefix-cuojtthciuxascbuzxiasmxxbjyq/Undercurrents_Prefix.pch.gch Undercurrents_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s323451991.325975
+e323451992.565375
+r1
+xProcessPCH
+x/var/folders/Ai/Ai47yOSqGwuFvzAUIEIr1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Undercurrents_Prefix-cuojtthciuxascbuzxiasmxxbjyq/Undercurrents_Prefix.pch.gch
+xUndercurrents_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@35"Precompile Undercurrents_Prefix.pch323451991#323451992#0(0"0(0#0#77"/Users/buffpojken/Projects/Objective-C/Undercurrents/Undercurrents_Prefix.pch8613502624#1876"    cd /Users/buffpojken/Projects/Objective-C/Undercurrents    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphoneos/Undercurrents.build/Undercurrents-generated-files.hmap -I/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphoneos/Undercurrents.build/Undercurrents-own-target-headers.hmap -I/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphoneos/Undercurrents.build/Undercurrents-all-target-headers.hmap -iquote /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphoneos/Undercurrents.build/Undercurrents-project-headers.hmap -F/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphoneos -I/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphoneos/include -I/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphoneos/Undercurrents.build/DerivedSources/armv7 -I/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphoneos/Undercurrents.build/DerivedSources -c /Users/buffpojken/Projects/Objective-C/Undercurrents/Undercurrents_Prefix.pch -o /var/folders/Ai/Ai47yOSqGwuFvzAUIEIr1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Undercurrents_Prefix-cuojtthciuxascbuzxiasmxxbjyq/Undercurrents_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/buffpojken/Library/MobileDevice/Provisioning Profiles/023878AC-14A0-40D4-BAD2-9F0671B105AA.mobileprovision" /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphoneos/Undercurrents.app/embedded.mobileprovision
+s323451992.963788
+e323451992.964921
+r1
+xProcessProductPackaging
+x/Users/buffpojken/Library/MobileDevice/Provisioning Profiles/023878AC-14A0-40D4-BAD2-9F0671B105AA.mobileprovision
+x/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphoneos/Undercurrents.app/embedded.mobileprovision
+lSLF07#2@203"ProcessProductPackaging "/Users/buffpojken/Library/MobileDevice/Provisioning Profiles/023878AC-14A0-40D4-BAD2-9F0671B105AA.mobileprovision" build/Debug-iphoneos/Undercurrents.app/embedded.mobileprovision323451992#323451992#0(0"0(0#0#116"/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphoneos/Undercurrents.app/embedded.mobileprovision8606224800#462"    cd /Users/buffpojken/Projects/Objective-C/Undercurrents    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/buffpojken/Library/MobileDevice/Provisioning Profiles/023878AC-14A0-40D4-BAD2-9F0671B105AA.mobileprovision" -o /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphoneos/Undercurrents.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphoneos/Undercurrents.build/Undercurrents.xcent
+s323451992.968844
+e323451992.970356
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+x/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphoneos/Undercurrents.build/Undercurrents.xcent
+lSLF07#2@193"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/Undercurrents.build/Debug-iphoneos/Undercurrents.build/Undercurrents.xcent323451992#323451992#0(0"0(0#0#133"/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphoneos/Undercurrents.build/Undercurrents.xcent8606651712#478"    cd /Users/buffpojken/Projects/Objective-C/Undercurrents    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphoneos/Undercurrents.build/Undercurrents.xcent0#
+
+CTouch /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphoneos/Undercurrents.app
+s323451992.964971
+e323451992.968776
+r1
+xTouch
+x/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphoneos/Undercurrents.app
+lSLF07#2@97"Touch /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphoneos/Undercurrents.app323451992#323451992#0(0"0(0#0#0"8603617184#298"    cd /Users/buffpojken/Projects/Objective-C/Undercurrents    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphoneos/Undercurrents.app0#
+

@@ -10,7 +10,7 @@
 
 @implementation UndercurrentsViewController
 
-@synthesize wiki_controller;
+@synthesize wiki_controller, chat_controller;
 
 // The designated initializer. Override to perform setup that is required before the view is loaded.
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
@@ -30,15 +30,18 @@
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
-	self.wiki_controller = [[WikiController alloc] initWithNibName:@"WikiController" bundle:[NSBundle mainBundle]];
+	self.wiki_controller = [[WikiController alloc] init];
 	[self.view addSubview:self.wiki_controller.view];
+	
+	self.chat_controller = [[ChatController alloc] init];
+	[self.view addSubview:self.chat_controller.view];
 }
 
 
 
 // Override to allow orientations other than the default portrait orientation.
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-    return YES;
+    return NO;
 }
 
 - (void)didReceiveMemoryWarning {

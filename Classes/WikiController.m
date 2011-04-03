@@ -7,11 +7,11 @@
 //
 
 #import "WikiController.h"
-
+#import "WikiEdit.h"
 
 @implementation WikiController
 
-@synthesize wiki_view, tab_bar;
+@synthesize wiki_view, tab_bar, current_wiki_id;
 /*
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
@@ -40,9 +40,12 @@
 	label.textColor			= [UIColor whiteColor];
 	label.text				= @"Wiki";
 	UIBarButtonItem *edit	= [[UIBarButtonItem alloc] initWithTitle:@"Edit" style:UIBarButtonItemStyleBordered target:self action:@selector(editBtnPressed)];	
-	toolbar.items		= [NSArray arrayWithObjects:[[UIBarButtonItem alloc] initWithCustomView:label],[[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFlexibleSpace target:nil action:nil], edit, nil];	
+	UIBarButtonItem *reload	= [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"01-refresh.png"] style:UIBarButtonItemStyleBordered target:self action:@selector(reloadBtnPressed)];
+	toolbar.items		= [NSArray arrayWithObjects:[[UIBarButtonItem alloc] initWithCustomView:label],[[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFlexibleSpace target:nil action:nil], reload,edit, nil];	
 	[self.view addSubview: toolbar];
 	[label release];
+	[edit release];
+	[reload release];
 	[toolbar release];
 }
 
@@ -66,27 +69,55 @@
 
 //	Action responders
 
--(void)editBtnPressed{
-	NSLog(@"Edit btn pressed...");
+-(void)reloadBtnPressed{
+	[wiki_view reload];
 }
+
+
+-(void)editBtnPressed{	
+	WikiEdit *wiki_edit = [[WikiEdit alloc] init];
+	wiki_edit.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
+	wiki_edit.modalPresentationStyle = UIModalPresentationCurrentContext;
+	wiki_edit.editing_wiki_id = self.current_wiki_id;
+	[self presentModalViewController:wiki_edit animated:YES];
+	wiki_edit.view.center = self.view.center;
+}
+
 
 - (void)tabBar:(UITabBar *)tabBar didSelectItem:(UITabBarItem *)item{
 	if(item.tag == 1){
-		[wiki_view loadRequest:[[NSURLRequest alloc] initWithURL:[NSURL URLWithString:@"http://google.com"]]];
+		self.current_wiki_id = 3;
+		[wiki_view loadRequest:[NSURLRequest requestWithURL:[self constructWikiURL:3 action:@""]]];
 	}else if(item.tag == 2){
-		[wiki_view loadRequest:[[NSURLRequest alloc] initWithURL:[NSURL URLWithString:@"http://tt.se"]]];
+		self.current_wiki_id = 4;
+		[wiki_view loadRequest:[NSURLRequest requestWithURL:[self constructWikiURL:4 action:@""]]];
 	}
 }
 
 
+-(void)dismissEditMode{
+	[self.wiki_view reload];
+	[self dismissModalViewControllerAnimated:YES];
+	self.view.center = self.modalViewController.view.center;
+}
 
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
-	[wiki_view loadRequest:[[NSURLRequest alloc] initWithURL:[NSURL URLWithString:@"http://google.com"]]];
+	self.current_wiki_id = 3;
+	[wiki_view loadRequest:[NSURLRequest requestWithURL:[self constructWikiURL:3 action:@""]]];
 }
 
+
+-(NSURL*)constructWikiURL:(int)wiki_id action:(NSString*)action{
+	NSUserDefaults *prefs = [NSUserDefaults standardUserDefaults];	
+	if([action length] == 0){
+		return [NSURL URLWithString:[NSString stringWithFormat:@"http://%@/wiki/%d",[prefs objectForKey:@"domain"] , wiki_id]];
+	}else{
+		return [NSURL URLWithString:[NSString stringWithFormat:@"http://%@/wiki/%d/%@", [prefs objectForKey:@"domain"], wiki_id, action]];
+	}
+}
 
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {

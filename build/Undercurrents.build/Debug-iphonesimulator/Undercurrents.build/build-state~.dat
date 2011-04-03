@@ -1,0 +1,682 @@
+TUndercurrents
+v7
+r0
+t323448540.244319
+cCheck dependencies
+cProcessInfoPlistFile /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphonesimulator/Undercurrents.app/Info.plist Undercurrents-Info.plist
+cCompileXIB /Users/buffpojken/Projects/Objective-C/Undercurrents/MainWindow.xib
+cCompileXIB /Users/buffpojken/Projects/Objective-C/Undercurrents/UndercurrentsViewController.xib
+cCpResource build/Debug-iphonesimulator/Undercurrents.app/README.textile README.textile
+cCpResource build/Debug-iphonesimulator/Undercurrents.app/96-book.png 96-book.png
+cCpResource build/Debug-iphonesimulator/Undercurrents.app/111-user.png 111-user.png
+cProcessPCH /var/folders/Ai/Ai47yOSqGwuFvzAUIEIr1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Undercurrents_Prefix-bzdioznvhtddyiaiztldlwuzoqih/Undercurrents_Prefix.pch.gch Undercurrents_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Undercurrents.build/Debug-iphonesimulator/Undercurrents.build/Objects-normal/i386/main.o /Users/buffpojken/Projects/Objective-C/Undercurrents/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Undercurrents.build/Debug-iphonesimulator/Undercurrents.build/Objects-normal/i386/UndercurrentsAppDelegate.o /Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/UndercurrentsAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Undercurrents.build/Debug-iphonesimulator/Undercurrents.build/Objects-normal/i386/UndercurrentsViewController.o /Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/UndercurrentsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Undercurrents.build/Debug-iphonesimulator/Undercurrents.build/Objects-normal/i386/WikiController.o /Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/WikiController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Undercurrents.build/Debug-iphonesimulator/Undercurrents.build/Objects-normal/i386/WikiEdit.o /Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/WikiEdit.m normal i386 objective-c com.apple.compilers.gcc.4_2
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Users/buffpojken/Projects/Objective-C/Undercurrents/111-user.png
+c000000004CB844500000000000000BAF
+t1287144528
+s2991
+
+N/Users/buffpojken/Projects/Objective-C/Undercurrents/96-book.png
+c000000004CB844720000000000000BF9
+t1287144562
+s3065
+
+N/Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/UndercurrentsAppDelegate.h
+c000000004D97215E0000000000000207
+t1301750110
+s519
+i<UIKit/UIKit.h>
+
+N/Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/UndercurrentsAppDelegate.m
+c000000004D97242600000000000007D6
+t1301750822
+s2006
+i"UndercurrentsAppDelegate.h"
+i"UndercurrentsViewController.h"
+
+N/Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/UndercurrentsViewController.h
+c000000004D97254D000000000000017A
+t1301751117
+s378
+i<UIKit/UIKit.h>
+i"WikiController.h"
+
+N/Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/UndercurrentsViewController.m
+c000000004D97262A0000000000000609
+t1301751338
+s1545
+i"UndercurrentsViewController.h"
+
+N/Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/WikiController.h
+c000000004D9733C100000000000001CD
+t1301754817
+s461
+i<UIKit/UIKit.h>
+
+N/Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/WikiController.m
+c000000004D97375B0000000000000E89
+t1301755739
+s3721
+i"WikiController.h"
+
+N/Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/WikiController.xib
+c000000004D9725C4000000000000429C
+t1301751236
+s17052
+
+N/Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/WikiEdit.h
+c000000004D9736B100000000000000DE
+t1301755569
+s222
+i<UIKit/UIKit.h>
+
+N/Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/WikiEdit.m
+c000000004D9737430000000000000634
+t1301755715
+s1588
+i"WikiEdit.h"
+
+N/Users/buffpojken/Projects/Objective-C/Undercurrents/MainWindow.xib
+c000000004D97215E0000000000004D45
+t1301750110
+s19781
+
+N/Users/buffpojken/Projects/Objective-C/Undercurrents/README
+c000000004D9722540000000000000012
+t1301750356
+s18
+
+N/Users/buffpojken/Projects/Objective-C/Undercurrents/README.textile
+c000000004D9723490000000000000012
+t1301750601
+s18
+
+N/Users/buffpojken/Projects/Objective-C/Undercurrents/UndercurrentsViewController.xib
+c000000004D97215E0000000000003EF9
+t1301750110
+s16121
+
+N/Users/buffpojken/Projects/Objective-C/Undercurrents/Undercurrents_Prefix.pch
+c000000004D97215E00000000000000C3
+t1301750110
+s195
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphonesimulator/Undercurrents.app
+t1301755739
+s306
+
+N/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphonesimulator/Undercurrents.app.dSYM
+t2
+s0
+
+N/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphonesimulator/Undercurrents.app/111-user.png
+t1301755739
+s2991
+
+N/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphonesimulator/Undercurrents.app/96-book.png
+t1301755739
+s3065
+
+N/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphonesimulator/Undercurrents.app/Info.plist
+t1301755739
+s822
+
+N/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphonesimulator/Undercurrents.app/MainWindow.nib
+t1301755739
+s1135
+
+N/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphonesimulator/Undercurrents.app/PkgInfo
+t1301755739
+s8
+
+N/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphonesimulator/Undercurrents.app/README
+t2
+s0
+
+N/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphonesimulator/Undercurrents.app/README.textile
+t1301755739
+s18
+
+N/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphonesimulator/Undercurrents.app/Undercurrents
+t2
+s0
+
+N/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphonesimulator/Undercurrents.app/UndercurrentsViewController.nib
+t1301755739
+s764
+
+N/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphonesimulator/Undercurrents.app/WikiController.nib
+t1301751239
+s1267
+
+N/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphonesimulator/Undercurrents.build/Objects-normal/i386/Undercurrents.LinkFileList
+c000000004D97375B000000000000031D
+t1301755739
+s797
+
+N/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphonesimulator/Undercurrents.build/Objects-normal/i386/UndercurrentsAppDelegate.o
+t1301755739
+s51124
+
+N/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphonesimulator/Undercurrents.build/Objects-normal/i386/UndercurrentsViewController.o
+t1301755740
+s43128
+
+N/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphonesimulator/Undercurrents.build/Objects-normal/i386/WikiController.o
+t2
+s0
+
+N/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphonesimulator/Undercurrents.build/Objects-normal/i386/WikiEdit.o
+t1301755740
+s40272
+
+N/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphonesimulator/Undercurrents.build/Objects-normal/i386/main.o
+t1301755739
+s6332
+
+N/Users/buffpojken/Projects/Objective-C/Undercurrents/main.m
+c000000004D97215E0000000000000173
+t1301750110
+s371
+i<UIKit/UIKit.h>
+
+N/var/folders/Ai/Ai47yOSqGwuFvzAUIEIr1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Undercurrents_Prefix-bzdioznvhtddyiaiztldlwuzoqih/Undercurrents_Prefix.pch.gch
+t1301750928
+s15453392
+
+NUndercurrents-Info.plist
+c000000004D97215E00000000000004D6
+t1301750110
+s1238
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies323448539#323448539#0(0"0(0#1#0"8613847872#0"0#
+
+CCompileC build/Undercurrents.build/Debug-iphonesimulator/Undercurrents.build/Objects-normal/i386/UndercurrentsAppDelegate.o /Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/UndercurrentsAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s323448539.859082
+e323448539.949548
+r1
+xCompileC
+xbuild/Undercurrents.build/Debug-iphonesimulator/Undercurrents.build/Objects-normal/i386/UndercurrentsAppDelegate.o
+x/Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/UndercurrentsAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@95"Compile /Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/UndercurrentsAppDelegate.m323448539#323448540#0(0"0(0#0#87"/Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/UndercurrentsAppDelegate.m8631346560#2236"    cd /Users/buffpojken/Projects/Objective-C/Undercurrents    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphonesimulator/Undercurrents.build/Undercurrents-generated-files.hmap -I/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphonesimulator/Undercurrents.build/Undercurrents-own-target-headers.hmap -I/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphonesimulator/Undercurrents.build/Undercurrents-all-target-headers.hmap -iquote /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphonesimulator/Undercurrents.build/Undercurrents-project-headers.hmap -F/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphonesimulator -I/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphonesimulator/include -I/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphonesimulator/Undercurrents.build/DerivedSources/i386 -I/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphonesimulator/Undercurrents.build/DerivedSources -include /var/folders/Ai/Ai47yOSqGwuFvzAUIEIr1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Undercurrents_Prefix-bzdioznvhtddyiaiztldlwuzoqih/Undercurrents_Prefix.pch -c /Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/UndercurrentsAppDelegate.m -o /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphonesimulator/Undercurrents.build/Objects-normal/i386/UndercurrentsAppDelegate.o0#
+
+CCompileC build/Undercurrents.build/Debug-iphonesimulator/Undercurrents.build/Objects-normal/i386/UndercurrentsViewController.o /Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/UndercurrentsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s323448539.924236
+e323448540.069643
+r1
+xCompileC
+xbuild/Undercurrents.build/Debug-iphonesimulator/Undercurrents.build/Objects-normal/i386/UndercurrentsViewController.o
+x/Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/UndercurrentsViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@98"Compile /Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/UndercurrentsViewController.m323448539#323448540#0(0"0(0#0#90"/Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/UndercurrentsViewController.m8628281664#2242"    cd /Users/buffpojken/Projects/Objective-C/Undercurrents    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphonesimulator/Undercurrents.build/Undercurrents-generated-files.hmap -I/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphonesimulator/Undercurrents.build/Undercurrents-own-target-headers.hmap -I/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphonesimulator/Undercurrents.build/Undercurrents-all-target-headers.hmap -iquote /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphonesimulator/Undercurrents.build/Undercurrents-project-headers.hmap -F/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphonesimulator -I/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphonesimulator/include -I/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphonesimulator/Undercurrents.build/DerivedSources/i386 -I/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphonesimulator/Undercurrents.build/DerivedSources -include /var/folders/Ai/Ai47yOSqGwuFvzAUIEIr1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Undercurrents_Prefix-bzdioznvhtddyiaiztldlwuzoqih/Undercurrents_Prefix.pch -c /Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/UndercurrentsViewController.m -o /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphonesimulator/Undercurrents.build/Objects-normal/i386/UndercurrentsViewController.o0#
+
+CCompileC build/Undercurrents.build/Debug-iphonesimulator/Undercurrents.build/Objects-normal/i386/WikiController.o /Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/WikiController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s323448539.950777
+e323448540.180945
+r0
+xCompileC
+xbuild/Undercurrents.build/Debug-iphonesimulator/Undercurrents.build/Objects-normal/i386/WikiController.o
+x/Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/WikiController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/WikiController.m: In function '-[WikiController editBtnPressed]':
+o/Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/WikiController.m:70: error: 'WikiEdit' undeclared (first use in this function)
+o/Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/WikiController.m:70: error: (Each undeclared identifier is reported only once
+o/Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/WikiController.m:70: error: for each function it appears in.)
+o{standard input}:887:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_20" minus "L00000000004$pb"
+o{standard input}:887:symbol: "L_OBJC_SELECTOR_REFERENCES_20" can't be undefined in a subtraction expression
+o{standard input}:881:non-relocatable subtraction expression, "L_OBJC_IVAR_$_WikiController.tab_bar$non_lazy_ptr" minus "L00000000004$pb"
+o{standard input}:881:symbol: "L_OBJC_IVAR_$_WikiController.tab_bar$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:874:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_8" minus "L00000000004$pb"
+o{standard input}:874:symbol: "L_OBJC_SELECTOR_REFERENCES_8" can't be undefined in a subtraction expression
+o{standard input}:866:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_28" minus "L00000000004$pb"
+o{standard input}:866:symbol: "L_OBJC_SELECTOR_REFERENCES_28" can't be undefined in a subtraction expression
+o{standard input}:859:non-relocatable subtraction expression, "L_OBJC_IVAR_$_WikiController.tab_bar$non_lazy_ptr" minus "L00000000004$pb"
+o{standard input}:859:symbol: "L_OBJC_IVAR_$_WikiController.tab_bar$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:851:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_27" minus "L00000000004$pb"
+o{standard input}:851:symbol: "L_OBJC_SELECTOR_REFERENCES_27" can't be undefined in a subtraction expression
+o{standard input}:844:non-relocatable subtraction expression, "L_OBJC_IVAR_$_WikiController.tab_bar$non_lazy_ptr" minus "L00000000004$pb"
+o{standard input}:844:symbol: "L_OBJC_IVAR_$_WikiController.tab_bar$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:836:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_26" minus "L00000000004$pb"
+o{standard input}:836:symbol: "L_OBJC_SELECTOR_REFERENCES_26" can't be undefined in a subtraction expression
+o{standard input}:830:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_29" minus "L00000000004$pb"
+o{standard input}:830:symbol: "L_OBJC_SELECTOR_REFERENCES_29" can't be undefined in a subtraction expression
+o{standard input}:824:non-relocatable subtraction expression, "L_OBJC_IVAR_$_WikiController.tab_bar$non_lazy_ptr" minus "L00000000004$pb"
+o{standard input}:824:symbol: "L_OBJC_IVAR_$_WikiController.tab_bar$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:816:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_19" minus "L00000000004$pb"
+o{standard input}:816:symbol: "L_OBJC_SELECTOR_REFERENCES_19" can't be undefined in a subtraction expression
+o{standard input}:809:non-relocatable subtraction expression, "L_OBJC_IVAR_$_WikiController.tab_bar$non_lazy_ptr" minus "L00000000004$pb"
+o{standard input}:809:symbol: "L_OBJC_IVAR_$_WikiController.tab_bar$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:799:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_18" minus "L00000000004$pb"
+o{standard input}:799:symbol: "L_OBJC_SELECTOR_REFERENCES_18" can't be undefined in a subtraction expression
+o{standard input}:789:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_25" minus "L00000000004$pb"
+o{standard input}:789:symbol: "L_OBJC_SELECTOR_REFERENCES_25" can't be undefined in a subtraction expression
+o{standard input}:781:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_24" minus "L00000000004$pb"
+o{standard input}:781:symbol: "L_OBJC_SELECTOR_REFERENCES_24" can't be undefined in a subtraction expression
+o{standard input}:777:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_9" minus "L00000000004$pb"
+o{standard input}:777:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_9" can't be undefined in a subtraction expression
+o{standard input}:771:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000004$pb"
+o{standard input}:771:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression
+o{standard input}:768:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_8" minus "L00000000004$pb"
+o{standard input}:768:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_8" can't be undefined in a subtraction expression
+o{standard input}:759:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_25" minus "L00000000004$pb"
+o{standard input}:759:symbol: "L_OBJC_SELECTOR_REFERENCES_25" can't be undefined in a subtraction expression
+o{standard input}:751:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_24" minus "L00000000004$pb"
+o{standard input}:751:symbol: "L_OBJC_SELECTOR_REFERENCES_24" can't be undefined in a subtraction expression
+o{standard input}:747:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_9" minus "L00000000004$pb"
+o{standard input}:747:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_9" can't be undefined in a subtraction expression
+o{standard input}:741:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000004$pb"
+o{standard input}:741:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression
+o{standard input}:738:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_8" minus "L00000000004$pb"
+o{standard input}:738:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_8" can't be undefined in a subtraction expression
+o{standard input}:735:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_5" minus "L00000000004$pb"
+o{standard input}:735:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_5" can't be undefined in a subtraction expression
+o{standard input}:728:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000004$pb"
+o{standard input}:728:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression
+o{standard input}:722:non-relocatable subtraction expression, "L_OBJC_IVAR_$_WikiController.tab_bar$non_lazy_ptr" minus "L00000000004$pb"
+o{standard input}:722:symbol: "L_OBJC_IVAR_$_WikiController.tab_bar$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:715:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_23" minus "L00000000004$pb"
+o{standard input}:715:symbol: "L_OBJC_SELECTOR_REFERENCES_23" can't be undefined in a subtraction expression
+o{standard input}:712:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_1" minus "L00000000004$pb"
+o{standard input}:712:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_1" can't be undefined in a subtraction expression
+o{standard input}:697:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000004$pb"
+o{standard input}:697:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:691:non-relocatable subtraction expression, "LC2" minus "L00000000004$pb"
+o{standard input}:691:symbol: "LC2" can't be undefined in a subtraction expression
+o{standard input}:688:non-relocatable subtraction expression, "LC17" minus "L00000000004$pb"
+o{standard input}:688:symbol: "LC17" can't be undefined in a subtraction expression
+o{standard input}:685:non-relocatable subtraction expression, "LC9" minus "L00000000004$pb"
+o{standard input}:685:symbol: "LC9" can't be undefined in a subtraction expression
+o{standard input}:682:non-relocatable subtraction expression, "LC16" minus "L00000000004$pb"
+o{standard input}:682:symbol: "LC16" can't be undefined in a subtraction expression
+o{standard input}:675:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000004$pb"
+o{standard input}:675:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression
+o{standard input}:672:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_7" minus "L00000000004$pb"
+o{standard input}:672:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_7" can't be undefined in a subtraction expression
+o{standard input}:667:non-relocatable subtraction expression, "L_OBJC_IVAR_$_WikiController.tab_bar$non_lazy_ptr" minus "L00000000004$pb"
+o{standard input}:667:symbol: "L_OBJC_IVAR_$_WikiController.tab_bar$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:602:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_21" minus "L00000000003$pb"
+o{standard input}:602:symbol: "L_OBJC_SELECTOR_REFERENCES_21" can't be undefined in a subtraction expression
+o{standard input}:596:non-relocatable subtraction expression, "L_OBJC_IVAR_$_WikiController.wiki_view$non_lazy_ptr" minus "L00000000003$pb"
+o{standard input}:596:symbol: "L_OBJC_IVAR_$_WikiController.wiki_view$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:588:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_20" minus "L00000000003$pb"
+o{standard input}:588:symbol: "L_OBJC_SELECTOR_REFERENCES_20" can't be undefined in a subtraction expression
+o{standard input}:582:non-relocatable subtraction expression, "L_OBJC_IVAR_$_WikiController.wiki_view$non_lazy_ptr" minus "L00000000003$pb"
+o{standard input}:582:symbol: "L_OBJC_IVAR_$_WikiController.wiki_view$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:575:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_8" minus "L00000000003$pb"
+o{standard input}:575:symbol: "L_OBJC_SELECTOR_REFERENCES_8" can't be undefined in a subtraction expression
+o{standard input}:567:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000003$pb"
+o{standard input}:567:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression
+o{standard input}:561:non-relocatable subtraction expression, "L_OBJC_IVAR_$_WikiController.wiki_view$non_lazy_ptr" minus "L00000000003$pb"
+o{standard input}:561:symbol: "L_OBJC_IVAR_$_WikiController.wiki_view$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:554:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_22" minus "L00000000003$pb"
+o{standard input}:554:symbol: "L_OBJC_SELECTOR_REFERENCES_22" can't be undefined in a subtraction expression
+o{standard input}:551:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_1" minus "L00000000003$pb"
+o{standard input}:551:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_1" can't be undefined in a subtraction expression
+o{standard input}:536:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000003$pb"
+o{standard input}:536:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:530:non-relocatable subtraction expression, "LC2" minus "L00000000003$pb"
+o{standard input}:530:symbol: "LC2" can't be undefined in a subtraction expression
+o{standard input}:527:non-relocatable subtraction expression, "LC8" minus "L00000000003$pb"
+o{standard input}:527:symbol: "LC8" can't be undefined in a subtraction expression
+o{standard input}:524:non-relocatable subtraction expression, "LC9" minus "L00000000003$pb"
+o{standard input}:524:symbol: "LC9" can't be undefined in a subtraction expression
+o{standard input}:521:non-relocatable subtraction expression, "LC15" minus "L00000000003$pb"
+o{standard input}:521:symbol: "LC15" can't be undefined in a subtraction expression
+o{standard input}:514:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000003$pb"
+o{standard input}:514:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression
+o{standard input}:511:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_6" minus "L00000000003$pb"
+o{standard input}:511:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_6" can't be undefined in a subtraction expression
+o{standard input}:506:non-relocatable subtraction expression, "L_OBJC_IVAR_$_WikiController.wiki_view$non_lazy_ptr" minus "L00000000003$pb"
+o{standard input}:506:symbol: "L_OBJC_IVAR_$_WikiController.wiki_view$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:472:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_21" minus "L00000000002$pb"
+o{standard input}:472:symbol: "L_OBJC_SELECTOR_REFERENCES_21" can't be undefined in a subtraction expression
+o{standard input}:465:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_21" minus "L00000000002$pb"
+o{standard input}:465:symbol: "L_OBJC_SELECTOR_REFERENCES_21" can't be undefined in a subtraction expression
+o{standard input}:457:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_20" minus "L00000000002$pb"
+o{standard input}:457:symbol: "L_OBJC_SELECTOR_REFERENCES_20" can't be undefined in a subtraction expression
+o{standard input}:450:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_8" minus "L00000000002$pb"
+o{standard input}:450:symbol: "L_OBJC_SELECTOR_REFERENCES_8" can't be undefined in a subtraction expression
+o{standard input}:442:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_19" minus "L00000000002$pb"
+o{standard input}:442:symbol: "L_OBJC_SELECTOR_REFERENCES_19" can't be undefined in a subtraction expression
+o{standard input}:430:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_18" minus "L00000000002$pb"
+o{standard input}:430:symbol: "L_OBJC_SELECTOR_REFERENCES_18" can't be undefined in a subtraction expression
+o{standard input}:423:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_16" minus "L00000000002$pb"
+o{standard input}:423:symbol: "L_OBJC_SELECTOR_REFERENCES_16" can't be undefined in a subtraction expression
+o{standard input}:416:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000002$pb"
+o{standard input}:416:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression
+o{standard input}:413:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_4" minus "L00000000002$pb"
+o{standard input}:413:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_4" can't be undefined in a subtraction expression
+o{standard input}:404:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_17" minus "L00000000002$pb"
+o{standard input}:404:symbol: "L_OBJC_SELECTOR_REFERENCES_17" can't be undefined in a subtraction expression
+o{standard input}:398:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000002$pb"
+o{standard input}:398:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression
+o{standard input}:395:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_4" minus "L00000000002$pb"
+o{standard input}:395:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_4" can't be undefined in a subtraction expression
+o{standard input}:392:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_5" minus "L00000000002$pb"
+o{standard input}:392:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_5" can't be undefined in a subtraction expression
+o{standard input}:381:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_15" minus "L00000000002$pb"
+o{standard input}:381:symbol: "L_OBJC_SELECTOR_REFERENCES_15" can't be undefined in a subtraction expression
+o{standard input}:377:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_14" minus "L00000000002$pb"
+o{standard input}:377:symbol: "L_OBJC_SELECTOR_REFERENCES_14" can't be undefined in a subtraction expression
+o{standard input}:371:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000002$pb"
+o{standard input}:371:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression
+o{standard input}:368:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_4" minus "L00000000002$pb"
+o{standard input}:368:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_4" can't be undefined in a subtraction expression
+o{standard input}:361:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_13" minus "L00000000002$pb"
+o{standard input}:361:symbol: "L_OBJC_SELECTOR_REFERENCES_13" can't be undefined in a subtraction expression
+o{standard input}:352:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_12" minus "L00000000002$pb"
+o{standard input}:352:symbol: "L_OBJC_SELECTOR_REFERENCES_12" can't be undefined in a subtraction expression
+o{standard input}:345:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_11" minus "L00000000002$pb"
+o{standard input}:345:symbol: "L_OBJC_SELECTOR_REFERENCES_11" can't be undefined in a subtraction expression
+o{standard input}:342:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_1" minus "L00000000002$pb"
+o{standard input}:342:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_1" can't be undefined in a subtraction expression
+o{standard input}:335:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000002$pb"
+o{standard input}:335:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression
+o{standard input}:328:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L00000000002$pb"
+o{standard input}:328:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression
+o{standard input}:325:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_1" minus "L00000000002$pb"
+o{standard input}:325:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_1" can't be undefined in a subtraction expression
+o{standard input}:310:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000002$pb"
+o{standard input}:310:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:304:non-relocatable subtraction expression, "LC2" minus "L00000000002$pb"
+o{standard input}:304:symbol: "LC2" can't be undefined in a subtraction expression
+o{standard input}:301:non-relocatable subtraction expression, "LC2" minus "L00000000002$pb"
+o{standard input}:301:symbol: "LC2" can't be undefined in a subtraction expression
+o{standard input}:298:non-relocatable subtraction expression, "LC10" minus "L00000000002$pb"
+o{standard input}:298:symbol: "LC10" can't be undefined in a subtraction expression
+o{standard input}:295:non-relocatable subtraction expression, "LC8" minus "L00000000002$pb"
+o{standard input}:295:symbol: "LC8" can't be undefined in a subtraction expression
+o{standard input}:288:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000002$pb"
+o{standard input}:288:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression
+o{standard input}:285:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_3" minus "L00000000002$pb"
+o{standard input}:285:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_3" can't be undefined in a subtraction expression
+o{standard input}:278:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_9" minus "L00000000002$pb"
+o{standard input}:278:symbol: "L_OBJC_SELECTOR_REFERENCES_9" can't be undefined in a subtraction expression
+o{standard input}:262:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000002$pb"
+o{standard input}:262:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:256:non-relocatable subtraction expression, "LC2" minus "L00000000002$pb"
+o{standard input}:256:symbol: "LC2" can't be undefined in a subtraction expression
+o{standard input}:253:non-relocatable subtraction expression, "LC2" minus "L00000000002$pb"
+o{standard input}:253:symbol: "LC2" can't be undefined in a subtraction expression
+o{standard input}:250:non-relocatable subtraction expression, "LC9" minus "L00000000002$pb"
+o{standard input}:250:symbol: "LC9" can't be undefined in a subtraction expression
+o{standard input}:247:non-relocatable subtraction expression, "LC8" minus "L00000000002$pb"
+o{standard input}:247:symbol: "LC8" can't be undefined in a subtraction expression
+o{standard input}:240:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000002$pb"
+o{standard input}:240:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression
+o{standard input}:237:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_2" minus "L00000000002$pb"
+o{standard input}:237:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_2" can't be undefined in a subtraction expression
+o{standard input}:149:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_7" minus "L00000000001$pb"
+o{standard input}:149:symbol: "L_OBJC_SELECTOR_REFERENCES_7" can't be undefined in a subtraction expression
+o{standard input}:142:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L00000000001$pb"
+o{standard input}:142:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression
+o{standard input}:135:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_5" minus "L00000000001$pb"
+o{standard input}:135:symbol: "L_OBJC_SELECTOR_REFERENCES_5" can't be undefined in a subtraction expression
+o{standard input}:127:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000001$pb"
+o{standard input}:127:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression
+o{standard input}:121:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_8" minus "L00000000001$pb"
+o{standard input}:121:symbol: "L_OBJC_SELECTOR_REFERENCES_8" can't be undefined in a subtraction expression
+o{standard input}:113:non-relocatable subtraction expression, "LC7" minus "L00000000001$pb"
+o{standard input}:113:symbol: "LC7" can't be undefined in a subtraction expression
+o{standard input}:110:non-relocatable subtraction expression, "LC6" minus "L00000000001$pb"
+o{standard input}:110:symbol: "LC6" can't be undefined in a subtraction expression
+o{standard input}:107:non-relocatable subtraction expression, "LC5" minus "L00000000001$pb"
+o{standard input}:107:symbol: "LC5" can't be undefined in a subtraction expression
+o{standard input}:104:non-relocatable subtraction expression, "LC4" minus "L00000000001$pb"
+o{standard input}:104:symbol: "LC4" can't be undefined in a subtraction expression
+o{standard input}:102:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000001$pb"
+o{standard input}:102:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression
+o{standard input}:99:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_1" minus "L00000000001$pb"
+o{standard input}:99:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_1" can't be undefined in a subtraction expression
+o{standard input}:92:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000001$pb"
+o{standard input}:92:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression
+o{standard input}:77:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000001$pb"
+o{standard input}:77:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:71:non-relocatable subtraction expression, "LC3" minus "L00000000001$pb"
+o{standard input}:71:symbol: "LC3" can't be undefined in a subtraction expression
+o{standard input}:68:non-relocatable subtraction expression, "LC2" minus "L00000000001$pb"
+o{standard input}:68:symbol: "LC2" can't be undefined in a subtraction expression
+o{standard input}:65:non-relocatable subtraction expression, "LC1" minus "L00000000001$pb"
+o{standard input}:65:symbol: "LC1" can't be undefined in a subtraction expression
+o{standard input}:62:non-relocatable subtraction expression, "LC0" minus "L00000000001$pb"
+o{standard input}:62:symbol: "LC0" can't be undefined in a subtraction expression
+o{standard input}:55:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"
+o{standard input}:55:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression
+o{standard input}:52:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_0" minus "L00000000001$pb"
+o{standard input}:52:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_0" can't be undefined in a subtraction expression
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_0
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0
+o{standard input}:unknown:Undefined local symbol LC0
+o{standard input}:unknown:Undefined local symbol LC1
+o{standard input}:unknown:Undefined local symbol LC2
+o{standard input}:unknown:Undefined local symbol LC3
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_2
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_1
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_3
+o{standard input}:unknown:Undefined local symbol LC4
+o{standard input}:unknown:Undefined local symbol LC5
+o{standard input}:unknown:Undefined local symbol LC6
+o{standard input}:unknown:Undefined local symbol LC7
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_8
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_4
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_5
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_6
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_7
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_2
+o{standard input}:unknown:Undefined local symbol LC8
+o{standard input}:unknown:Undefined local symbol LC9
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_9
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_3
+o{standard input}:unknown:Undefined local symbol LC10
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_10
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_11
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_12
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_13
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_4
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_14
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_15
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_5
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_17
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_16
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_18
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_19
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_20
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_21
+o{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_WikiController.wiki_view$non_lazy_ptr
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_6
+o{standard input}:unknown:Undefined local symbol LC15
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_22
+o{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_WikiController.tab_bar$non_lazy_ptr
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_7
+o{standard input}:unknown:Undefined local symbol LC16
+o{standard input}:unknown:Undefined local symbol LC17
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_23
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_8
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_9
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_24
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_25
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_29
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_26
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_27
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_28
+lSLF07#2@85"Compile /Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/WikiController.m323448539#323448540#0(28780"/Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/WikiController.m: In function '-[WikiController editBtnPressed]':/Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/WikiController.m:70: error: 'WikiEdit' undeclared (first use in this function)/Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/WikiController.m:70: error: (Each undeclared identifier is reported only once/Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/WikiController.m:70: error: for each function it appears in.){standard input}:887:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_20" minus "L00000000004$pb"{standard input}:887:symbol: "L_OBJC_SELECTOR_REFERENCES_20" can't be undefined in a subtraction expression{standard input}:881:non-relocatable subtraction expression, "L_OBJC_IVAR_$_WikiController.tab_bar$non_lazy_ptr" minus "L00000000004$pb"{standard input}:881:symbol: "L_OBJC_IVAR_$_WikiController.tab_bar$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:874:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_8" minus "L00000000004$pb"{standard input}:874:symbol: "L_OBJC_SELECTOR_REFERENCES_8" can't be undefined in a subtraction expression{standard input}:866:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_28" minus "L00000000004$pb"{standard input}:866:symbol: "L_OBJC_SELECTOR_REFERENCES_28" can't be undefined in a subtraction expression{standard input}:859:non-relocatable subtraction expression, "L_OBJC_IVAR_$_WikiController.tab_bar$non_lazy_ptr" minus "L00000000004$pb"{standard input}:859:symbol: "L_OBJC_IVAR_$_WikiController.tab_bar$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:851:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_27" minus "L00000000004$pb"{standard input}:851:symbol: "L_OBJC_SELECTOR_REFERENCES_27" can't be undefined in a subtraction expression{standard input}:844:non-relocatable subtraction expression, "L_OBJC_IVAR_$_WikiController.tab_bar$non_lazy_ptr" minus "L00000000004$pb"{standard input}:844:symbol: "L_OBJC_IVAR_$_WikiController.tab_bar$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:836:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_26" minus "L00000000004$pb"{standard input}:836:symbol: "L_OBJC_SELECTOR_REFERENCES_26" can't be undefined in a subtraction expression{standard input}:830:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_29" minus "L00000000004$pb"{standard input}:830:symbol: "L_OBJC_SELECTOR_REFERENCES_29" can't be undefined in a subtraction expression{standard input}:824:non-relocatable subtraction expression, "L_OBJC_IVAR_$_WikiController.tab_bar$non_lazy_ptr" minus "L00000000004$pb"{standard input}:824:symbol: "L_OBJC_IVAR_$_WikiController.tab_bar$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:816:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_19" minus "L00000000004$pb"{standard input}:816:symbol: "L_OBJC_SELECTOR_REFERENCES_19" can't be undefined in a subtraction expression{standard input}:809:non-relocatable subtraction expression, "L_OBJC_IVAR_$_WikiController.tab_bar$non_lazy_ptr" minus "L00000000004$pb"{standard input}:809:symbol: "L_OBJC_IVAR_$_WikiController.tab_bar$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:799:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_18" minus "L00000000004$pb"{standard input}:799:symbol: "L_OBJC_SELECTOR_REFERENCES_18" can't be undefined in a subtraction expression{standard input}:789:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_25" minus "L00000000004$pb"{standard input}:789:symbol: "L_OBJC_SELECTOR_REFERENCES_25" can't be undefined in a subtraction expression{standard input}:781:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_24" minus "L00000000004$pb"{standard input}:781:symbol: "L_OBJC_SELECTOR_REFERENCES_24" can't be undefined in a subtraction expression{standard input}:777:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_9" minus "L00000000004$pb"{standard input}:777:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_9" can't be undefined in a subtraction expression{standard input}:771:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000004$pb"{standard input}:771:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression{standard input}:768:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_8" minus "L00000000004$pb"{standard input}:768:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_8" can't be undefined in a subtraction expression{standard input}:759:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_25" minus "L00000000004$pb"{standard input}:759:symbol: "L_OBJC_SELECTOR_REFERENCES_25" can't be undefined in a subtraction expression{standard input}:751:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_24" minus "L00000000004$pb"{standard input}:751:symbol: "L_OBJC_SELECTOR_REFERENCES_24" can't be undefined in a subtraction expression{standard input}:747:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_9" minus "L00000000004$pb"{standard input}:747:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_9" can't be undefined in a subtraction expression{standard input}:741:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000004$pb"{standard input}:741:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression{standard input}:738:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_8" minus "L00000000004$pb"{standard input}:738:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_8" can't be undefined in a subtraction expression{standard input}:735:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_5" minus "L00000000004$pb"{standard input}:735:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_5" can't be undefined in a subtraction expression{standard input}:728:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000004$pb"{standard input}:728:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression{standard input}:722:non-relocatable subtraction expression, "L_OBJC_IVAR_$_WikiController.tab_bar$non_lazy_ptr" minus "L00000000004$pb"{standard input}:722:symbol: "L_OBJC_IVAR_$_WikiController.tab_bar$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:715:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_23" minus "L00000000004$pb"{standard input}:715:symbol: "L_OBJC_SELECTOR_REFERENCES_23" can't be undefined in a subtraction expression{standard input}:712:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_1" minus "L00000000004$pb"{standard input}:712:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_1" can't be undefined in a subtraction expression{standard input}:697:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000004$pb"{standard input}:697:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:691:non-relocatable subtraction expression, "LC2" minus "L00000000004$pb"{standard input}:691:symbol: "LC2" can't be undefined in a subtraction expression{standard input}:688:non-relocatable subtraction expression, "LC17" minus "L00000000004$pb"{standard input}:688:symbol: "LC17" can't be undefined in a subtraction expression{standard input}:685:non-relocatable subtraction expression, "LC9" minus "L00000000004$pb"{standard input}:685:symbol: "LC9" can't be undefined in a subtraction expression{standard input}:682:non-relocatable subtraction expression, "LC16" minus "L00000000004$pb"{standard input}:682:symbol: "LC16" can't be undefined in a subtraction expression{standard input}:675:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000004$pb"{standard input}:675:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression{standard input}:672:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_7" minus "L00000000004$pb"{standard input}:672:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_7" can't be undefined in a subtraction expression{standard input}:667:non-relocatable subtraction expression, "L_OBJC_IVAR_$_WikiController.tab_bar$non_lazy_ptr" minus "L00000000004$pb"{standard input}:667:symbol: "L_OBJC_IVAR_$_WikiController.tab_bar$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:602:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_21" minus "L00000000003$pb"{standard input}:602:symbol: "L_OBJC_SELECTOR_REFERENCES_21" can't be undefined in a subtraction expression{standard input}:596:non-relocatable subtraction expression, "L_OBJC_IVAR_$_WikiController.wiki_view$non_lazy_ptr" minus "L00000000003$pb"{standard input}:596:symbol: "L_OBJC_IVAR_$_WikiController.wiki_view$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:588:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_20" minus "L00000000003$pb"{standard input}:588:symbol: "L_OBJC_SELECTOR_REFERENCES_20" can't be undefined in a subtraction expression{standard input}:582:non-relocatable subtraction expression, "L_OBJC_IVAR_$_WikiController.wiki_view$non_lazy_ptr" minus "L00000000003$pb"{standard input}:582:symbol: "L_OBJC_IVAR_$_WikiController.wiki_view$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:575:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_8" minus "L00000000003$pb"{standard input}:575:symbol: "L_OBJC_SELECTOR_REFERENCES_8" can't be undefined in a subtraction expression{standard input}:567:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000003$pb"{standard input}:567:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression{standard input}:561:non-relocatable subtraction expression, "L_OBJC_IVAR_$_WikiController.wiki_view$non_lazy_ptr" minus "L00000000003$pb"{standard input}:561:symbol: "L_OBJC_IVAR_$_WikiController.wiki_view$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:554:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_22" minus "L00000000003$pb"{standard input}:554:symbol: "L_OBJC_SELECTOR_REFERENCES_22" can't be undefined in a subtraction expression{standard input}:551:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_1" minus "L00000000003$pb"{standard input}:551:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_1" can't be undefined in a subtraction expression{standard input}:536:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000003$pb"{standard input}:536:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:530:non-relocatable subtraction expression, "LC2" minus "L00000000003$pb"{standard input}:530:symbol: "LC2" can't be undefined in a subtraction expression{standard input}:527:non-relocatable subtraction expression, "LC8" minus "L00000000003$pb"{standard input}:527:symbol: "LC8" can't be undefined in a subtraction expression{standard input}:524:non-relocatable subtraction expression, "LC9" minus "L00000000003$pb"{standard input}:524:symbol: "LC9" can't be undefined in a subtraction expression{standard input}:521:non-relocatable subtraction expression, "LC15" minus "L00000000003$pb"{standard input}:521:symbol: "LC15" can't be undefined in a subtraction expression{standard input}:514:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000003$pb"{standard input}:514:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression{standard input}:511:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_6" minus "L00000000003$pb"{standard input}:511:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_6" can't be undefined in a subtraction expression{standard input}:506:non-relocatable subtraction expression, "L_OBJC_IVAR_$_WikiController.wiki_view$non_lazy_ptr" minus "L00000000003$pb"{standard input}:506:symbol: "L_OBJC_IVAR_$_WikiController.wiki_view$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:472:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_21" minus "L00000000002$pb"{standard input}:472:symbol: "L_OBJC_SELECTOR_REFERENCES_21" can't be undefined in a subtraction expression{standard input}:465:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_21" minus "L00000000002$pb"{standard input}:465:symbol: "L_OBJC_SELECTOR_REFERENCES_21" can't be undefined in a subtraction expression{standard input}:457:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_20" minus "L00000000002$pb"{standard input}:457:symbol: "L_OBJC_SELECTOR_REFERENCES_20" can't be undefined in a subtraction expression{standard input}:450:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_8" minus "L00000000002$pb"{standard input}:450:symbol: "L_OBJC_SELECTOR_REFERENCES_8" can't be undefined in a subtraction expression{standard input}:442:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_19" minus "L00000000002$pb"{standard input}:442:symbol: "L_OBJC_SELECTOR_REFERENCES_19" can't be undefined in a subtraction expression{standard input}:430:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_18" minus "L00000000002$pb"{standard input}:430:symbol: "L_OBJC_SELECTOR_REFERENCES_18" can't be undefined in a subtraction expression{standard input}:423:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_16" minus "L00000000002$pb"{standard input}:423:symbol: "L_OBJC_SELECTOR_REFERENCES_16" can't be undefined in a subtraction expression{standard input}:416:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000002$pb"{standard input}:416:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression{standard input}:413:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_4" minus "L00000000002$pb"{standard input}:413:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_4" can't be undefined in a subtraction expression{standard input}:404:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_17" minus "L00000000002$pb"{standard input}:404:symbol: "L_OBJC_SELECTOR_REFERENCES_17" can't be undefined in a subtraction expression{standard input}:398:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000002$pb"{standard input}:398:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression{standard input}:395:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_4" minus "L00000000002$pb"{standard input}:395:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_4" can't be undefined in a subtraction expression{standard input}:392:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_5" minus "L00000000002$pb"{standard input}:392:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_5" can't be undefined in a subtraction expression{standard input}:381:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_15" minus "L00000000002$pb"{standard input}:381:symbol: "L_OBJC_SELECTOR_REFERENCES_15" can't be undefined in a subtraction expression{standard input}:377:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_14" minus "L00000000002$pb"{standard input}:377:symbol: "L_OBJC_SELECTOR_REFERENCES_14" can't be undefined in a subtraction expression{standard input}:371:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000002$pb"{standard input}:371:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression{standard input}:368:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_4" minus "L00000000002$pb"{standard input}:368:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_4" can't be undefined in a subtraction expression{standard input}:361:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_13" minus "L00000000002$pb"{standard input}:361:symbol: "L_OBJC_SELECTOR_REFERENCES_13" can't be undefined in a subtraction expression{standard input}:352:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_12" minus "L00000000002$pb"{standard input}:352:symbol: "L_OBJC_SELECTOR_REFERENCES_12" can't be undefined in a subtraction expression{standard input}:345:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_11" minus "L00000000002$pb"{standard input}:345:symbol: "L_OBJC_SELECTOR_REFERENCES_11" can't be undefined in a subtraction expression{standard input}:342:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_1" minus "L00000000002$pb"{standard input}:342:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_1" can't be undefined in a subtraction expression{standard input}:335:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000002$pb"{standard input}:335:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression{standard input}:328:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L00000000002$pb"{standard input}:328:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression{standard input}:325:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_1" minus "L00000000002$pb"{standard input}:325:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_1" can't be undefined in a subtraction expression{standard input}:310:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000002$pb"{standard input}:310:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:304:non-relocatable subtraction expression, "LC2" minus "L00000000002$pb"{standard input}:304:symbol: "LC2" can't be undefined in a subtraction expression{standard input}:301:non-relocatable subtraction expression, "LC2" minus "L00000000002$pb"{standard input}:301:symbol: "LC2" can't be undefined in a subtraction expression{standard input}:298:non-relocatable subtraction expression, "LC10" minus "L00000000002$pb"{standard input}:298:symbol: "LC10" can't be undefined in a subtraction expression{standard input}:295:non-relocatable subtraction expression, "LC8" minus "L00000000002$pb"{standard input}:295:symbol: "LC8" can't be undefined in a subtraction expression{standard input}:288:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000002$pb"{standard input}:288:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression{standard input}:285:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_3" minus "L00000000002$pb"{standard input}:285:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_3" can't be undefined in a subtraction expression{standard input}:278:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_9" minus "L00000000002$pb"{standard input}:278:symbol: "L_OBJC_SELECTOR_REFERENCES_9" can't be undefined in a subtraction expression{standard input}:262:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000002$pb"{standard input}:262:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:256:non-relocatable subtraction expression, "LC2" minus "L00000000002$pb"{standard input}:256:symbol: "LC2" can't be undefined in a subtraction expression{standard input}:253:non-relocatable subtraction expression, "LC2" minus "L00000000002$pb"{standard input}:253:symbol: "LC2" can't be undefined in a subtraction expression{standard input}:250:non-relocatable subtraction expression, "LC9" minus "L00000000002$pb"{standard input}:250:symbol: "LC9" can't be undefined in a subtraction expression{standard input}:247:non-relocatable subtraction expression, "LC8" minus "L00000000002$pb"{standard input}:247:symbol: "LC8" can't be undefined in a subtraction expression{standard input}:240:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000002$pb"{standard input}:240:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression{standard input}:237:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_2" minus "L00000000002$pb"{standard input}:237:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_2" can't be undefined in a subtraction expression{standard input}:149:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_7" minus "L00000000001$pb"{standard input}:149:symbol: "L_OBJC_SELECTOR_REFERENCES_7" can't be undefined in a subtraction expression{standard input}:142:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L00000000001$pb"{standard input}:142:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression{standard input}:135:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_5" minus "L00000000001$pb"{standard input}:135:symbol: "L_OBJC_SELECTOR_REFERENCES_5" can't be undefined in a subtraction expression{standard input}:127:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000001$pb"{standard input}:127:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression{standard input}:121:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_8" minus "L00000000001$pb"{standard input}:121:symbol: "L_OBJC_SELECTOR_REFERENCES_8" can't be undefined in a subtraction expression{standard input}:113:non-relocatable subtraction expression, "LC7" minus "L00000000001$pb"{standard input}:113:symbol: "LC7" can't be undefined in a subtraction expression{standard input}:110:non-relocatable subtraction expression, "LC6" minus "L00000000001$pb"{standard input}:110:symbol: "LC6" can't be undefined in a subtraction expression{standard input}:107:non-relocatable subtraction expression, "LC5" minus "L00000000001$pb"{standard input}:107:symbol: "LC5" can't be undefined in a subtraction expression{standard input}:104:non-relocatable subtraction expression, "LC4" minus "L00000000001$pb"{standard input}:104:symbol: "LC4" can't be undefined in a subtraction expression{standard input}:102:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000001$pb"{standard input}:102:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:99:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_1" minus "L00000000001$pb"{standard input}:99:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_1" can't be undefined in a subtraction expression{standard input}:92:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000001$pb"{standard input}:92:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression{standard input}:77:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000001$pb"{standard input}:77:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:71:non-relocatable subtraction expression, "LC3" minus "L00000000001$pb"{standard input}:71:symbol: "LC3" can't be undefined in a subtraction expression{standard input}:68:non-relocatable subtraction expression, "LC2" minus "L00000000001$pb"{standard input}:68:symbol: "LC2" can't be undefined in a subtraction expression{standard input}:65:non-relocatable subtraction expression, "LC1" minus "L00000000001$pb"{standard input}:65:symbol: "LC1" can't be undefined in a subtraction expression{standard input}:62:non-relocatable subtraction expression, "LC0" minus "L00000000001$pb"{standard input}:62:symbol: "LC0" can't be undefined in a subtraction expression{standard input}:55:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"{standard input}:55:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression{standard input}:52:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_0" minus "L00000000001$pb"{standard input}:52:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_0" can't be undefined in a subtraction expression{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_0{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0{standard input}:unknown:Undefined local symbol LC0{standard input}:unknown:Undefined local symbol LC1{standard input}:unknown:Undefined local symbol LC2{standard input}:unknown:Undefined local symbol LC3{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_2{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_1{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_3{standard input}:unknown:Undefined local symbol LC4{standard input}:unknown:Undefined local symbol LC5{standard input}:unknown:Undefined local symbol LC6{standard input}:unknown:Undefined local symbol LC7{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_8{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_4{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_5{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_6{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_7{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_2{standard input}:unknown:Undefined local symbol LC8{standard input}:unknown:Undefined local symbol LC9{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_9{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_3{standard input}:unknown:Undefined local symbol LC10{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_10{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_11{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_12{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_13{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_4{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_14{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_15{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_5{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_17{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_16{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_18{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_19{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_20{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_21{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_WikiController.wiki_view$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_6{standard input}:unknown:Undefined local symbol LC15{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_22{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_WikiController.tab_bar$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_7{standard input}:unknown:Undefined local symbol LC16{standard input}:unknown:Undefined local symbol LC17{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_23{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_8{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_9{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_24{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_25{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_29{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_26{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_27{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_281(4@50"'WikiEdit' undeclared (first use in this function)323448540#127#140#0(6@77"/Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/WikiController.m323448538#70#0#70#0#43"'*' undeclared (first use in this function)0(0#0#77"/Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/WikiController.m8627098400#2216"    cd /Users/buffpojken/Projects/Objective-C/Undercurrents    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphonesimulator/Undercurrents.build/Undercurrents-generated-files.hmap -I/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphonesimulator/Undercurrents.build/Undercurrents-own-target-headers.hmap -I/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphonesimulator/Undercurrents.build/Undercurrents-all-target-headers.hmap -iquote /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphonesimulator/Undercurrents.build/Undercurrents-project-headers.hmap -F/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphonesimulator -I/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphonesimulator/include -I/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphonesimulator/Undercurrents.build/DerivedSources/i386 -I/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphonesimulator/Undercurrents.build/DerivedSources -include /var/folders/Ai/Ai47yOSqGwuFvzAUIEIr1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Undercurrents_Prefix-bzdioznvhtddyiaiztldlwuzoqih/Undercurrents_Prefix.pch -c /Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/WikiController.m -o /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphonesimulator/Undercurrents.build/Objects-normal/i386/WikiController.o1#
+
+CCompileC build/Undercurrents.build/Debug-iphonesimulator/Undercurrents.build/Objects-normal/i386/WikiEdit.o /Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/WikiEdit.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s323448540.069727
+e323448540.244242
+r1
+xCompileC
+xbuild/Undercurrents.build/Debug-iphonesimulator/Undercurrents.build/Objects-normal/i386/WikiEdit.o
+x/Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/WikiEdit.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/WikiEdit.m323448540#323448540#0(0"0(0#0#71"/Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/WikiEdit.m8635713120#2204"    cd /Users/buffpojken/Projects/Objective-C/Undercurrents    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphonesimulator/Undercurrents.build/Undercurrents-generated-files.hmap -I/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphonesimulator/Undercurrents.build/Undercurrents-own-target-headers.hmap -I/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphonesimulator/Undercurrents.build/Undercurrents-all-target-headers.hmap -iquote /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphonesimulator/Undercurrents.build/Undercurrents-project-headers.hmap -F/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphonesimulator -I/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphonesimulator/include -I/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphonesimulator/Undercurrents.build/DerivedSources/i386 -I/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphonesimulator/Undercurrents.build/DerivedSources -include /var/folders/Ai/Ai47yOSqGwuFvzAUIEIr1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Undercurrents_Prefix-bzdioznvhtddyiaiztldlwuzoqih/Undercurrents_Prefix.pch -c /Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/WikiEdit.m -o /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphonesimulator/Undercurrents.build/Objects-normal/i386/WikiEdit.o0#
+
+CCompileC build/Undercurrents.build/Debug-iphonesimulator/Undercurrents.build/Objects-normal/i386/main.o /Users/buffpojken/Projects/Objective-C/Undercurrents/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s323448539.858135
+e323448539.924142
+r1
+xCompileC
+xbuild/Undercurrents.build/Debug-iphonesimulator/Undercurrents.build/Objects-normal/i386/main.o
+x/Users/buffpojken/Projects/Objective-C/Undercurrents/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/buffpojken/Projects/Objective-C/Undercurrents/main.m323448539#323448539#0(0"0(0#0#59"/Users/buffpojken/Projects/Objective-C/Undercurrents/main.m8631849184#2188"    cd /Users/buffpojken/Projects/Objective-C/Undercurrents    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphonesimulator/Undercurrents.build/Undercurrents-generated-files.hmap -I/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphonesimulator/Undercurrents.build/Undercurrents-own-target-headers.hmap -I/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphonesimulator/Undercurrents.build/Undercurrents-all-target-headers.hmap -iquote /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphonesimulator/Undercurrents.build/Undercurrents-project-headers.hmap -F/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphonesimulator -I/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphonesimulator/include -I/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphonesimulator/Undercurrents.build/DerivedSources/i386 -I/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphonesimulator/Undercurrents.build/DerivedSources -include /var/folders/Ai/Ai47yOSqGwuFvzAUIEIr1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Undercurrents_Prefix-bzdioznvhtddyiaiztldlwuzoqih/Undercurrents_Prefix.pch -c /Users/buffpojken/Projects/Objective-C/Undercurrents/main.m -o /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphonesimulator/Undercurrents.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/WikiController.xib
+s323444039.588005
+e323444039.956204
+r1
+xCompileXIB
+x/Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/WikiController.xib
+lSLF07#2@37"CompileXIB Classes/WikiController.xib323444039#323444039#0(0"0(0#0#79"/Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/WikiController.xib8612922304#634"    cd /Users/buffpojken/Projects/Objective-C/Undercurrents    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphonesimulator/Undercurrents.app/WikiController.nib /Users/buffpojken/Projects/Objective-C/Undercurrents/Classes/WikiController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/buffpojken/Projects/Objective-C/Undercurrents/MainWindow.xib
+s323448539.440029
+e323448539.857793
+r1
+xCompileXIB
+x/Users/buffpojken/Projects/Objective-C/Undercurrents/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib323448539#323448539#0(0"0(0#0#67"/Users/buffpojken/Projects/Objective-C/Undercurrents/MainWindow.xib8614681152#618"    cd /Users/buffpojken/Projects/Objective-C/Undercurrents    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphonesimulator/Undercurrents.app/MainWindow.nib /Users/buffpojken/Projects/Objective-C/Undercurrents/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/buffpojken/Projects/Objective-C/Undercurrents/UndercurrentsViewController.xib
+s323448539.441349
+e323448539.832555
+r1
+xCompileXIB
+x/Users/buffpojken/Projects/Objective-C/Undercurrents/UndercurrentsViewController.xib
+lSLF07#2@42"CompileXIB UndercurrentsViewController.xib323448539#323448539#0(0"0(0#0#84"/Users/buffpojken/Projects/Objective-C/Undercurrents/UndercurrentsViewController.xib8599948544#652"    cd /Users/buffpojken/Projects/Objective-C/Undercurrents    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphonesimulator/Undercurrents.app/UndercurrentsViewController.nib /Users/buffpojken/Projects/Objective-C/Undercurrents/UndercurrentsViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCpResource build/Debug-iphonesimulator/Undercurrents.app/111-user.png 111-user.png
+s323448539.839651
+e323448539.845109
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Undercurrents.app/111-user.png
+x111-user.png
+lSLF07#2@17"Copy 111-user.png323448539#323448539#0(0"0(0#0#65"/Users/buffpojken/Projects/Objective-C/Undercurrents/111-user.png8634455648#518"    cd /Users/buffpojken/Projects/Objective-C/Undercurrents    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/buffpojken/Projects/Objective-C/Undercurrents/111-user.png /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphonesimulator/Undercurrents.app0#
+
+CCpResource build/Debug-iphonesimulator/Undercurrents.app/96-book.png 96-book.png
+s323448539.833828
+e323448539.843524
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Undercurrents.app/96-book.png
+x96-book.png
+lSLF07#2@16"Copy 96-book.png323448539#323448539#0(0"0(0#0#64"/Users/buffpojken/Projects/Objective-C/Undercurrents/96-book.png8634973088#517"    cd /Users/buffpojken/Projects/Objective-C/Undercurrents    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/buffpojken/Projects/Objective-C/Undercurrents/96-book.png /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphonesimulator/Undercurrents.app0#
+
+CCpResource build/Debug-iphonesimulator/Undercurrents.app/README README
+r0
+
+CCpResource build/Debug-iphonesimulator/Undercurrents.app/README.textile README.textile
+s323448539.832715
+e323448539.841464
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Undercurrents.app/README.textile
+xREADME.textile
+lSLF07#2@19"Copy README.textile323448539#323448539#0(0"0(0#0#67"/Users/buffpojken/Projects/Objective-C/Undercurrents/README.textile8635505824#520"    cd /Users/buffpojken/Projects/Objective-C/Undercurrents    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/buffpojken/Projects/Objective-C/Undercurrents/README.textile /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphonesimulator/Undercurrents.app0#
+
+CGenerateDSYMFile /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphonesimulator/Undercurrents.app.dSYM /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphonesimulator/Undercurrents.app/Undercurrents
+s323447459.720986
+e323447459.737694
+r1
+xGenerateDSYMFile
+x/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphonesimulator/Undercurrents.app.dSYM
+x/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphonesimulator/Undercurrents.app/Undercurrents
+lSLF07#2@127"GenerateDSYMFile build/Debug-iphonesimulator/Undercurrents.app.dSYM build/Debug-iphonesimulator/Undercurrents.app/Undercurrents323447459#323447459#0(0"0(0#0#112"/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphonesimulator/Undercurrents.app/Undercurrents8626314112#443"    cd /Users/buffpojken/Projects/Objective-C/Undercurrents    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphonesimulator/Undercurrents.app/Undercurrents -o /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphonesimulator/Undercurrents.app.dSYM0#
+
+CLd /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphonesimulator/Undercurrents.app/Undercurrents normal i386
+s323447459.650239
+e323447459.720891
+r1
+xLd
+x/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphonesimulator/Undercurrents.app/Undercurrents
+xnormal
+xi386
+lSLF07#2@117"Link /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphonesimulator/Undercurrents.app/Undercurrents323447459#323447459#0(0"0(0#0#0"8627098400#1000"    cd /Users/buffpojken/Projects/Objective-C/Undercurrents    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphonesimulator -F/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphonesimulator -filelist /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphonesimulator/Undercurrents.build/Objects-normal/i386/Undercurrents.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphonesimulator/Undercurrents.app/Undercurrents0#
+
+CProcessInfoPlistFile /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphonesimulator/Undercurrents.app/Info.plist Undercurrents-Info.plist
+s323448539.435049
+e323448539.439852
+r1
+xProcessInfoPlistFile
+x/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphonesimulator/Undercurrents.app/Info.plist
+xUndercurrents-Info.plist
+lSLF07#2@32"Process Undercurrents-Info.plist323448539#323448539#0(0"0(0#0#77"/Users/buffpojken/Projects/Objective-C/Undercurrents/Undercurrents-Info.plist27866512327245924#539"    cd /Users/buffpojken/Projects/Objective-C/Undercurrents    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Undercurrents-Info.plist -genpkginfo /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphonesimulator/Undercurrents.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphonesimulator/Undercurrents.app/Info.plist0#
+
+CProcessPCH /var/folders/Ai/Ai47yOSqGwuFvzAUIEIr1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Undercurrents_Prefix-bzdioznvhtddyiaiztldlwuzoqih/Undercurrents_Prefix.pch.gch Undercurrents_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s323443727.918394
+e323443729.606342
+r1
+xProcessPCH
+x/var/folders/Ai/Ai47yOSqGwuFvzAUIEIr1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Undercurrents_Prefix-bzdioznvhtddyiaiztldlwuzoqih/Undercurrents_Prefix.pch.gch
+xUndercurrents_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@35"Precompile Undercurrents_Prefix.pch323443727#323443729#0(0"0(0#0#77"/Users/buffpojken/Projects/Objective-C/Undercurrents/Undercurrents_Prefix.pch8612911328#2060"    cd /Users/buffpojken/Projects/Objective-C/Undercurrents    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphonesimulator/Undercurrents.build/Undercurrents-generated-files.hmap -I/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphonesimulator/Undercurrents.build/Undercurrents-own-target-headers.hmap -I/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphonesimulator/Undercurrents.build/Undercurrents-all-target-headers.hmap -iquote /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphonesimulator/Undercurrents.build/Undercurrents-project-headers.hmap -F/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphonesimulator -I/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphonesimulator/include -I/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphonesimulator/Undercurrents.build/DerivedSources/i386 -I/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Undercurrents.build/Debug-iphonesimulator/Undercurrents.build/DerivedSources -c /Users/buffpojken/Projects/Objective-C/Undercurrents/Undercurrents_Prefix.pch -o /var/folders/Ai/Ai47yOSqGwuFvzAUIEIr1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Undercurrents_Prefix-bzdioznvhtddyiaiztldlwuzoqih/Undercurrents_Prefix.pch.gch0#
+
+CTouch /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphonesimulator/Undercurrents.app
+s323447459.737774
+e323447459.739910
+r1
+xTouch
+x/Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphonesimulator/Undercurrents.app
+lSLF07#2@104"Touch /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphonesimulator/Undercurrents.app323447459#323447459#0(0"0(0#0#0"8626254784#312"    cd /Users/buffpojken/Projects/Objective-C/Undercurrents    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/buffpojken/Projects/Objective-C/Undercurrents/build/Debug-iphonesimulator/Undercurrents.app0#
+
