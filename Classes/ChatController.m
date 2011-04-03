@@ -11,6 +11,8 @@
 
 @implementation ChatController
 
+@synthesize chat; 
+
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
 /*
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
@@ -25,8 +27,28 @@
 // Implement loadView to create a view hierarchy programmatically, without using a nib.
 - (void)loadView {
 	self.view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 307, 1024)];
-	self.view.backgroundColor = [UIColor blueColor];	
+	self.view.backgroundColor = [UIColor colorWithRed:26.0/255.0 green:24/255.0 blue:23/255.0 alpha:1.0];
+	[self addToolbar];
+	[self addChatList];
 }
+
+-(void)addToolbar{
+	UIToolbar *tool_bar		= [[UIToolbar alloc] initWithFrame:CGRectMake(0, 0, 306, 44)];
+	tool_bar.barStyle		= UIBarStyleBlackTranslucent;
+	UILabel *label			= [[UILabel alloc] initWithFrame:CGRectMake(0,0,306, 44)];
+	label.textAlignment		= UITextAlignmentCenter;
+	label.backgroundColor	= [UIColor clearColor];
+	label.textColor			= [UIColor whiteColor];
+	label.text				= @"Chat";
+	tool_bar.items			= [NSArray arrayWithObjects:[[UIBarButtonItem alloc] initWithCustomView:label], nil];
+	[self.view addSubview:tool_bar];
+}
+
+-(void)addChatList{
+	self.chat				= [[UITableView alloc] initWithFrame:CGRectMake(0, 45, 306, 910)];	
+	[self.view addSubview:self.chat];
+}
+
 
 /*
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.

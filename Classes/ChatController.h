@@ -10,7 +10,12 @@
 
 
 @interface ChatController : UIViewController {
-
+	UITableView *chat; 
 }
+
+@property (retain) UITableView *chat;
+
+-(void)addToolbar;
+-(void)addChatList;
 
 @end

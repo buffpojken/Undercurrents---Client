@@ -61,7 +61,8 @@
 	tab_bar.backgroundColor = [UIColor redColor];
 	tab_bar.items = [NSArray arrayWithObjects:
 					 [[UITabBarItem alloc] initWithTitle:@"Character" image:[UIImage imageNamed:@"111-user.png"] tag:1], 
-					 [[UITabBarItem alloc] initWithTitle:@"Wiki" image:[UIImage imageNamed:@"96-book.png"] tag:2],nil];
+					 [[UITabBarItem alloc] initWithTitle:@"Wiki" image:[UIImage imageNamed:@"96-book.png"] tag:2],
+					 nil];
 	tab_bar.selectedItem = [tab_bar.items objectAtIndex:0];
 	tab_bar.delegate = self;
 	[self.view addSubview:tab_bar];
@@ -113,9 +114,9 @@
 -(NSURL*)constructWikiURL:(int)wiki_id action:(NSString*)action{
 	NSUserDefaults *prefs = [NSUserDefaults standardUserDefaults];	
 	if([action length] == 0){
-		return [NSURL URLWithString:[NSString stringWithFormat:@"http://%@/wiki/%d",[prefs objectForKey:@"domain"] , wiki_id]];
+		return [NSURL URLWithString:[NSString stringWithFormat:@"http://%@/wiki/%d?native=1",[prefs objectForKey:@"domain"] , wiki_id]];
 	}else{
-		return [NSURL URLWithString:[NSString stringWithFormat:@"http://%@/wiki/%d/%@", [prefs objectForKey:@"domain"], wiki_id, action]];
+		return [NSURL URLWithString:[NSString stringWithFormat:@"http://%@/wiki/%d/%@?native=1", [prefs objectForKey:@"domain"], wiki_id, action]];
 	}
 }
 
